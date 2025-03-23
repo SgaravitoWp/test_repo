@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "test_repo", from = "src"}]
+package-mode = false
 
 
 [build-system]
