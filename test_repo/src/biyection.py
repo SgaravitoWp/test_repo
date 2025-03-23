@@ -14,6 +14,6 @@ def wordPattern(pattern: str, s: str) -> bool:
             charToWord[c] = w
             wordToChar[w] = c
 
-        return True
+        return False
 
 # print(wordPattern("jquery", "jquery"))
